@@ -1,0 +1,129 @@
+2018-09-21 12:04:27.197 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.1-SNAPSHOT unknown - kaleabk - 2018-09-21 14:59:59
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/kaleabk/SOLR/solr
+2018-09-21 12:04:27.906 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-09-21T12:04:27.891Z
+2018-09-21 12:04:27.907 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-09-21 12:04:28.027 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/kaleabk/SOLR/solr/server/solr
+2018-09-21 12:04:28.044 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/kaleabk/SOLR/solr/server/solr/solr.xml
+2018-09-21 12:04:28.787 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-09-21 12:04:29.189 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath /home/kaleabk/SOLR/solr/server/solr
+2018-09-21 12:04:29.192 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [kidsHealth, familyDoctor, drugs]
+2018-09-21 12:04:29.381 INFO  (main) [   ] o.e.j.s.Server Started @3368ms
+2018-09-21 12:04:29.447 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.SolrResourceLoader [drugs] Added 51 libs to classloader, from paths: [/home/kaleabk/SOLR/solr/contrib/clustering/lib, /home/kaleabk/SOLR/solr/contrib/extraction/lib, /home/kaleabk/SOLR/solr/contrib/langid/lib, /home/kaleabk/SOLR/solr/contrib/velocity/lib, /home/kaleabk/SOLR/solr/dist]
+2018-09-21 12:04:29.492 WARN  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.SolrConfig Couldn't add files from /home/kaleabk/SOLR/solr/contrib/ltr/lib filtered by .*\.jar to classpath: /home/kaleabk/SOLR/solr/contrib/ltr/lib
+2018-09-21 12:04:29.515 WARN  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrConfig Couldn't add files from /home/kaleabk/SOLR/solr/contrib/ltr/lib filtered by .*\.jar to classpath: /home/kaleabk/SOLR/solr/contrib/ltr/lib
+2018-09-21 12:04:29.636 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.SolrResourceLoader [familyDoctor] Added 72 libs to classloader, from paths: [/home/kaleabk/SOLR/solr/build/lucene-libs, /home/kaleabk/SOLR/solr/contrib/analysis-extras/lib, /home/kaleabk/SOLR/solr/contrib/clustering/lib, /home/kaleabk/SOLR/solr/contrib/extraction/lib, /home/kaleabk/SOLR/solr/contrib/langid/lib, /home/kaleabk/SOLR/solr/contrib/velocity/lib, /home/kaleabk/SOLR/solr/dist]
+2018-09-21 12:04:29.637 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrResourceLoader [kidsHealth] Added 72 libs to classloader, from paths: [/home/kaleabk/SOLR/solr/build/lucene-libs, /home/kaleabk/SOLR/solr/contrib/analysis-extras/lib, /home/kaleabk/SOLR/solr/contrib/clustering/lib, /home/kaleabk/SOLR/solr/contrib/extraction/lib, /home/kaleabk/SOLR/solr/contrib/langid/lib, /home/kaleabk/SOLR/solr/contrib/velocity/lib, /home/kaleabk/SOLR/solr/dist]
+2018-09-21 12:04:31.273 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-09-21 12:04:31.281 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2018-09-21 12:04:31.282 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-09-21 12:04:31.290 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2018-09-21 12:04:31.293 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2018-09-21 12:04:31.636 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.IndexSchema [kidsHealth] Schema name=nutch
+2018-09-21 12:04:31.673 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.IndexSchema [familyDoctor] Schema name=nutch
+2018-09-21 12:04:31.695 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.s.IndexSchema [drugs] Schema name=example-data-driven-schema
+2018-09-21 12:04:31.896 WARN  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2018-09-21 12:04:31.908 WARN  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2018-09-21 12:04:32.375 WARN  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.IndexSchema [kidsHealth] query parser default operator is OR. WARNING: Deprecated, please use 'q.op' on request instead.
+2018-09-21 12:04:32.375 WARN  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.IndexSchema [familyDoctor] query parser default operator is OR. WARNING: Deprecated, please use 'q.op' on request instead.
+2018-09-21 12:04:32.416 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2018-09-21 12:04:32.417 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2018-09-21 12:04:32.973 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.CoreContainer Creating SolrCore 'kidsHealth' using configuration from instancedir /home/kaleabk/SOLR/solr/server/solr/test
+2018-09-21 12:04:32.973 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.CoreContainer Creating SolrCore 'familyDoctor' using configuration from instancedir /home/kaleabk/SOLR/solr/server/solr/familyDoctor
+2018-09-21 12:04:33.094 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-09-21 12:04:33.096 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-09-21 12:04:33.127 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.SolrCore [[familyDoctor] ] Opening new SolrCore at [/home/kaleabk/SOLR/solr/server/solr/familyDoctor], dataDir=[/home/kaleabk/SOLR/solr/server/solr/familyDoctor/data/]
+2018-09-21 12:04:33.127 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.SolrCore [[kidsHealth] ] Opening new SolrCore at [/home/kaleabk/SOLR/solr/server/solr/test], dataDir=[/home/kaleabk/SOLR/solr/server/solr/test/data/]
+2018-09-21 12:04:33.151 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2e8c1c9b
+2018-09-21 12:04:33.155 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2e8c1c9b
+2018-09-21 12:04:33.356 INFO  (qtp985934102-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1537531473123} status=0 QTime=74
+2018-09-21 12:04:33.371 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-09-21 12:04:33.375 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-09-21 12:04:33.387 INFO  (qtp985934102-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1537531473124} status=0 QTime=102
+2018-09-21 12:04:33.791 WARN  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.c.PluginBag Multiple entries of searchComponent with name highlight
+2018-09-21 12:04:33.794 WARN  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.c.PluginBag Multiple entries of searchComponent with name highlight
+2018-09-21 12:04:33.812 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2018-09-21 12:04:33.930 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.CoreContainer Creating SolrCore 'drugs' using configuration from instancedir /home/kaleabk/SOLR/solr/server/solr/drugs
+2018-09-21 12:04:33.931 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-09-21 12:04:33.931 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.SolrCore [[drugs] ] Opening new SolrCore at [/home/kaleabk/SOLR/solr/server/solr/drugs], dataDir=[/home/kaleabk/SOLR/solr/server/solr/drugs/data/]
+2018-09-21 12:04:33.931 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2e8c1c9b
+2018-09-21 12:04:33.936 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-09-21 12:04:34.262 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-21 12:04:34.262 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-21 12:04:34.263 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-21 12:04:34.263 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-21 12:04:34.263 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-21 12:04:34.263 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-21 12:04:34.281 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-21 12:04:34.281 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-21 12:04:34.287 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-21 12:04:34.290 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-21 12:04:34.309 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-21 12:04:34.309 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-21 12:04:34.398 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.SolrIndexSearcher Opening [Searcher@1384d160[familyDoctor] main]
+2018-09-21 12:04:34.398 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.s.SolrIndexSearcher Opening [Searcher@3f75ec56[drugs] main]
+2018-09-21 12:04:34.453 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/kaleabk/SOLR/solr/server/solr/drugs/conf
+2018-09-21 12:04:34.454 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/kaleabk/SOLR/solr/server/solr/familyDoctor/conf
+2018-09-21 12:04:34.520 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-09-21 12:04:34.523 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-09-21 12:04:34.570 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-09-21 12:04:34.570 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-09-21 12:04:34.584 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/kaleabk/SOLR/solr/server/solr/drugs/conf/elevate.xml
+2018-09-21 12:04:34.618 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2018-09-21 12:04:34.640 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=title,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2018-09-21 12:04:34.653 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-21 12:04:34.757 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=title,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2018-09-21 12:04:34.771 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.SolrIndexSearcher Opening [Searcher@52038f5f[kidsHealth] main]
+2018-09-21 12:04:34.772 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/kaleabk/SOLR/solr/server/solr/test/conf
+2018-09-21 12:04:34.757 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/kaleabk/SOLR/solr/server/solr/familyDoctor/conf/elevate.xml
+2018-09-21 12:04:34.774 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-09-21 12:04:34.774 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-09-21 12:04:34.775 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2018-09-21 12:04:34.779 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=title,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2018-09-21 12:04:34.780 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=title,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2018-09-21 12:04:34.780 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/kaleabk/SOLR/solr/server/solr/test/conf/elevate.xml
+2018-09-21 12:04:34.833 INFO  (coreLoadExecutor-6-thread-1) [   x:kidsHealth] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-21 12:04:34.838 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-21 12:04:34.843 INFO  (searcherExecutor-9-thread-1-processing-x:drugs) [   x:drugs] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3f75ec56[drugs] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-21 12:04:34.849 INFO  (searcherExecutor-9-thread-1-processing-x:drugs) [   x:drugs] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-09-21 12:04:34.849 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1384d160[familyDoctor] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-21 12:04:34.843 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@52038f5f[kidsHealth] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(6.5.1):C3390)))}
+2018-09-21 12:04:34.849 INFO  (searcherExecutor-9-thread-1-processing-x:drugs) [   x:drugs] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-09-21 12:04:34.854 INFO  (searcherExecutor-9-thread-1-processing-x:drugs) [   x:drugs] o.a.s.c.SolrCore [drugs] Registered new searcher Searcher@3f75ec56[drugs] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-21 12:04:34.868 INFO  (coreLoadExecutor-6-thread-2) [   x:familyDoctor] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1612218603789090816
+2018-09-21 12:04:34.883 INFO  (coreLoadExecutor-6-thread-3) [   x:drugs] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1612218603806916608
+2018-09-21 12:04:35.070 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.c.S.Request [familyDoctor]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=212
+2018-09-21 12:04:35.073 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-09-21 12:04:35.073 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-09-21 12:04:35.073 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-09-21 12:04:35.079 INFO  (searcherExecutor-7-thread-1-processing-x:familyDoctor) [   x:familyDoctor] o.a.s.c.SolrCore [familyDoctor] Registered new searcher Searcher@1384d160[familyDoctor] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-09-21 12:04:35.122 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=27 status=0 QTime=262
+2018-09-21 12:04:35.198 INFO  (qtp985934102-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1537531475054} status=0 QTime=0
+2018-09-21 12:04:35.252 INFO  (qtp985934102-14) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1537531475056&ts=1537531475056} status=503 QTime=1
+2018-09-21 12:04:35.278 INFO  (qtp985934102-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1537531475056} status=0 QTime=66
+2018-09-21 12:04:35.287 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-09-21 12:04:35.287 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-09-21 12:04:35.287 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-09-21 12:04:35.290 INFO  (searcherExecutor-8-thread-1-processing-x:kidsHealth) [   x:kidsHealth] o.a.s.c.SolrCore [kidsHealth] Registered new searcher Searcher@52038f5f[kidsHealth] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(6.5.1):C3390)))}
+2018-09-21 12:04:35.291 INFO  (qtp985934102-20) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/replication params={wt=json&command=details&_=1537531475181} status=0 QTime=66
+2018-09-21 12:04:35.305 INFO  (qtp985934102-13) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1537531475180} status=0 QTime=94
+2018-09-21 12:04:35.335 INFO  (qtp985934102-15) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/system params={wt=json&_=1537531475180} status=0 QTime=86
+2018-09-21 12:04:36.058 INFO  (qtp985934102-16) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1537531476045} status=0 QTime=0
+2018-09-21 12:04:36.060 INFO  (qtp985934102-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1537531475993} status=0 QTime=3
+2018-09-21 12:04:36.071 INFO  (qtp985934102-17) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/replication params={wt=json&command=details&_=1537531476045} status=0 QTime=0
+2018-09-21 12:04:36.080 INFO  (qtp985934102-12) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/system params={wt=json&_=1537531476045} status=0 QTime=10
+2018-09-21 12:04:36.084 INFO  (qtp985934102-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1537531475994} status=0 QTime=27
+2018-09-21 12:04:36.089 INFO  (qtp985934102-17) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1537531475994&ts=1537531475994} status=503 QTime=0
+2018-09-21 12:04:57.768 INFO  (qtp985934102-15) [   x:kidsHealth] o.a.s.c.S.Request [kidsHealth]  webapp=/solr path=/browse params={q=HIV&json.wrf=on_data&callback=jQuery32100038089210360323644_1537531494280&rows=1&wt=json&_=1537531494281} hits=89 status=0 QTime=302
+2018-09-21 12:07:26.170 INFO  (qtp985934102-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1537531645349} status=0 QTime=0
+2018-09-21 12:07:26.417 INFO  (qtp985934102-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1537531645351} status=0 QTime=240
+2018-09-21 12:07:26.435 INFO  (qtp985934102-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1537531645351} status=0 QTime=8
+2018-09-21 12:07:34.096 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1822971466
+2018-09-21 12:07:34.098 INFO  (coreCloseExecutor-22-thread-1) [   x:familyDoctor] o.a.s.c.SolrCore [familyDoctor]  CLOSING SolrCore org.apache.solr.core.SolrCore@65f93c64
+2018-09-21 12:07:34.104 INFO  (coreCloseExecutor-22-thread-3) [   x:kidsHealth] o.a.s.c.SolrCore [kidsHealth]  CLOSING SolrCore org.apache.solr.core.SolrCore@d6d2f3a
+2018-09-21 12:07:34.112 INFO  (coreCloseExecutor-22-thread-2) [   x:drugs] o.a.s.c.SolrCore [drugs]  CLOSING SolrCore org.apache.solr.core.SolrCore@29727d2a
+2018-09-21 12:07:34.187 INFO  (coreCloseExecutor-22-thread-1) [   x:familyDoctor] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.familyDoctor
+2018-09-21 12:07:34.205 INFO  (coreCloseExecutor-22-thread-3) [   x:kidsHealth] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.kidsHealth
+2018-09-21 12:07:34.208 INFO  (coreCloseExecutor-22-thread-2) [   x:drugs] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.drugs
+2018-09-21 12:07:34.209 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.node

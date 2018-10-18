@@ -1,0 +1,6 @@
+2018-09-21 12:04:27.197 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.1-SNAPSHOT unknown - kaleabk - 2018-09-21 14:59:59
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-09-21 12:04:27.890 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/kaleabk/SOLR/solr
+2018-09-21 12:04:27.906 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-09-21T12:04:27.891Z
+2018-09-21 12:04:27.907 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
